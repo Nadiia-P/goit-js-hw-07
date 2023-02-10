@@ -25,6 +25,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
 });
 
 function onPreviewClick(e) {
-  if (e.target.nodeName !== 'IMG') return;
   e.preventDefault();
+  if (e.target.nodeName !== 'IMG') return;
 }
