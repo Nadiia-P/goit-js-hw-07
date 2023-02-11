@@ -18,7 +18,7 @@ const galleryRender = galleryItems
 galleryContainer.insertAdjacentHTML('beforeend', galleryRender);
 
 galleryContainer.addEventListener('click', onPreviewClick);
-const lightbox = new SimpleLightbox('.gallery a', {
+var lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
   showCounter: false,
